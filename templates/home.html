@@ -15,9 +15,26 @@
             color:white;
         }
 
-        .navbar{
+        nav{
             background:#020617;
-        }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .container-1{
+                width: 500px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .second-container{
+                width: 200px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            }
+        
+
 
         .movie-card{
             background:#1e293b;
@@ -49,13 +66,22 @@
 <body>
 
 <nav class="navbar navbar-dark">
-    <div class="container">
+    <div class="container-1">
 
         <a class="navbar-brand">
             🎬 TicketHub
         </a>
-
-        <div>
+        <a class="navbar-brand">
+            Home
+        </a>
+        <a class="navbar-brand">
+            About
+        </a>
+        <a class="navbar-brand">
+            Contact
+        </a>
+    </div>
+        <div class="second-container">
 
             <a href="/login"
                class="btn btn-primary">
@@ -69,7 +95,6 @@
 
         </div>
 
-    </div>
 </nav>
 
 <div class="hero">
